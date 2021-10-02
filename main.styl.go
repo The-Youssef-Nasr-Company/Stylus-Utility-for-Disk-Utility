@@ -10,7 +10,7 @@ func draw_looped_load() {
   time.Sleep(0.5);
   fmt.Println("Drawing...");
   time.Sleep(0.5);
-  draw();
+  draw_looped_load();
 }
 
-draw();
+draw_looped_load();
