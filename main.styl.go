@@ -1,7 +1,16 @@
-import "fmt"
+import (
+        "fmt"
+        "time"
+)
 
-func draw() {
+func draw_looped_load() {
+  fmt.Println("Drawing.");
+  time.Sleep(0.5);
+  fmt.Println("Drawing..");
+  time.Sleep(0.5);
   fmt.Println("Drawing...");
+  time.Sleep(0.5);
+  draw();
 }
 
 draw();
