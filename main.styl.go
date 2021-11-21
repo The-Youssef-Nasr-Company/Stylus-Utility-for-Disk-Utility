@@ -3,14 +3,14 @@ import (
         "time"
 )
 
-func draw_looped_load() {
+func loop() {
   fmt.Println("Drawing.");
   time.Sleep(0.5);
   fmt.Println("Drawing..");
   time.Sleep(0.5);
   fmt.Println("Drawing...");
   time.Sleep(0.5);
-  draw_looped_load();
+  loop();
 }
 
-draw_looped_load();
+loop();
