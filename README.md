@@ -1,6 +1,6 @@
 # Stylus Utility for Disk Utility (includes Python and Golang)
 
-Oh, hey! Welcome to Youssef Land! We're making the Stylus utility for Disk Utility (did _Disk Utility_ have enough utilities for recovering [Mac](https://apple.com/macos/monterey)s? The short answer is no).
+Oh, hey! Welcome to Youssef Land! We're making the Stylus utility for Disk Utility (did _Disk Utility_ have enough utilities for recovering [Macs](https://apple.com/macos/monterey)? The short answer is no).
 
 ## Slogan
 
