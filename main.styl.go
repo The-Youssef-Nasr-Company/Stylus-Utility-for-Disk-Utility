@@ -5,11 +5,11 @@ import (
 
 func loop() {
   fmt.Println("Drawing.");
-  time.Sleep(0.5);
+  time.Sleep(0.9);
   fmt.Println("Drawing..");
-  time.Sleep(0.5);
+  time.Sleep(0.9);
   fmt.Println("Drawing...");
-  time.Sleep(0.5);
+  time.Sleep(0.9);
   loop();
 }
 
