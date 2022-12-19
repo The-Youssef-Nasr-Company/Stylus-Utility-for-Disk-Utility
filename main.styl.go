@@ -4,11 +4,13 @@ import (
 )
 
 func loop() {
-  fmt.Println("Drawing.");
+  fmt.Println("Drawing");
   time.Sleep(0.9);
-  fmt.Println("Drawing..");
+  fmt.Println("Drawing .");
   time.Sleep(0.9);
-  fmt.Println("Drawing...");
+  fmt.Println("Drawing . .");
+  time.Sleep(0.9);
+  fmt.Println("Drawing . . .");
   time.Sleep(0.9);
   loop();
 }
