@@ -1,7 +1,11 @@
 import pygame
+from termcolor import colored
 
 def draw():
-    screen = True
-    screen.draw = draw()
+	print(colored("ERROR: Cannot find a way to draw anything", "red"))
 
-screen.draw()
+screen = {
+	"draw": draw()
+}
+
+screen["draw"]
